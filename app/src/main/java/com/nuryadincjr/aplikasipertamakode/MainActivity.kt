@@ -1,10 +1,9 @@
 package com.nuryadincjr.aplikasipertamakode
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -21,14 +20,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
         val images: ImageView = findViewById(R.id.ivOwen)
-        val randomInt = Random().nextInt(4) +1
 
-        val drawableResorce = when(randomInt) {
-            1 -> R.drawable.ic_baseline_cloud_upload_24
+        val drawableResorce = when(Random().nextInt(6) +1) {
+            1 -> R.drawable.ic_baseline_cloud_24
             2 -> R.drawable.ic_baseline_cloud_done_24
             3 -> R.drawable.ic_baseline_cloud_off_24
             4 -> R.drawable.ic_baseline_cloud_queue_24
-            else -> R.drawable.ic_baseline_cloud_24
+            5 -> R.drawable.ic_baseline_cloud_upload_24
+            else -> R.drawable.ic_baseline_cloud_empty
         }
 
         images.setImageResource(drawableResorce)
