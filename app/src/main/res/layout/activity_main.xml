@@ -8,13 +8,12 @@
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvNomber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/ivOwen"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
-        android:text="@string/str_no"
-        android:textSize="30sp" />
+        android:src="@drawable/ic_baseline_cloud_24" />
 
     <Button
         android:id="@+id/btnRoll"
