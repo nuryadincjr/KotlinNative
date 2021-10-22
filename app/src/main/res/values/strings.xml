@@ -2,4 +2,7 @@
     <string name="app_name">Aplikasi Pertama Kode</string>
     <string name="roll">Roll</string>
     <string name="str_no">1</string>
+    <string name="nuryadin_abutani">Nuryadin Abutani</string>
+    <string name="str_bio">Hay nama saya Nuryadin Abutani dari Kabupaten Cianjur</string>
+    <string name="what_is_yout_name">What is yout name</string>
 </resources>
